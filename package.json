@@ -1,0 +1,51 @@
+{
+  "name": "react-deso",
+  "description": "A React UI Library for interfacing with the DeSo Blockchain",
+  "version": "0.1.0-alpha",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "John Jardin",
+  "license": "MIT",
+  "keywords": [
+    "bleeding code",
+    "bleedingcode",
+    "john jardin",
+    "johnjardin",
+    "deso blockchain"
+  ],
+  "peerDependencies": {
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "@rollup/plugin-node-resolve": "^13.2.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^18.0.5",
+    "antd": "4.19.5",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "eslint-plugin-testing-library": "^5.3.1",
+    "prettier": "^2.6.2",
+    "react": "^18.0.0",
+    "react-dom": "18.0.0",
+    "rollup": "^2.70.1",
+    "rollup-plugin-dts": "^4.2.1",
+    "typescript": "^4.6.3"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
